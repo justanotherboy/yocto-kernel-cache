@@ -1,0 +1,8 @@
+define KFEATURE_DESCRIPTION "netfilter nf_tables FIB features"
+define KFEATURE_COMPATIBILITY all
+
+include nft-core.scc
+include nft-ipv4.scc
+include nft-ipv6.scc
+
+kconf non-hardware nft-fib.cfg
