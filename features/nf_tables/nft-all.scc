@@ -1,0 +1,7 @@
+define KFEATURE_DESCRIPTION "netfilter nf_tables core, ARP, bridge, fib, IPv4, and IPv6 features"
+define KFEATURE_COMPATIBILITY all
+
+include nft-core.scc
+include nft-fib.scc
+include nft-arp.scc
+include nft-bridge.scc
