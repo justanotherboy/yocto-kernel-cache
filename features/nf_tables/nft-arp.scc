@@ -1,0 +1,6 @@
+define KFEATURE_DESCRIPTION "netfilter nf_tables ARP features"
+define KFEATURE_COMPATIBILITY all
+
+include nft-core.scc
+
+kconf non-hardware nft-arp.cfg
